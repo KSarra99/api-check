@@ -1,0 +1,41 @@
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://picsum.photos/g/3000/2000");
+
+}
+.container{
+    position: relative;
+    flex-direction: row;
+display: inline-block;
+    margin: 60px;
+   
+  }
+  .container .card{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    background: #cab0b0;
+    border-radius: 100px;
+    overflow: hidden;
+    
+  }
+
+.title h1{
+    font-size: 200px;
+    color: darkred;
+    letter-spacing: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.title :hover{
+    color: rgb(30, 2, 94);
+    
+}
+
+
